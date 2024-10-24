@@ -42,13 +42,12 @@ Imagina que estás trabajando en un proyecto de investigación genómica y has r
   El grafo de De Bruijn es el siguiente:
 
   <div align="center">
-  <img src="grafos/grafo_2.png" alt="Grafo Ej 2" />
+  <img src="grafo_2.png" alt="Grafo Ej 2" width=700 />
     <p><strong>Figura 1.</strong> Grafo resultante del ejercicio 2.</p> 
 </div>
 
 
 
-2. Determinar la secuencia original de ADN que mejor se ensambla a partir de estas 
-lecturas. 
-4. Explicar el proceso paso a paso, indicando cómo el grafo ayuda a ensamblar fragmentos 
-y cómo se resuelven las superposiciones.
+2. Determinar la **secuencia original** de ADN que mejor se ensambla a partir de estas lecturas.
+  
+3. Explicar el proceso paso a paso, indicando cómo el grafo ayuda a ensamblar fragmentos y cómo se resuelven las superposiciones.
