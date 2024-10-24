@@ -41,13 +41,21 @@ Imagina que estás trabajando en un proyecto de investigación genómica y has r
  
   El grafo de De Bruijn es el siguiente:
 
-  <div align="center">
+<div align="center">
   <img src="grafo_2.png" alt="Grafo Ej 2" width=700 />
     <p><strong>Figura 1.</strong> Grafo resultante del ejercicio 2.</p> 
 </div>
 
 
-
 2. Determinar la **secuencia original** de ADN que mejor se ensambla a partir de estas lecturas.
+
+En principio, no se puede determinar un camino Euleriano debido a que es imposible encontrar un camino que recorre todas las aristas una sola vez. Esto se puede deber a los siguientes aspectos:
+- Fallo a la hora de tomar los fragmentos de ADN. Por tanto, se debería solicitar otra muestra al laboratorio.
+- Fallo a la hora de copiar los datos. Si en lugar de existir el nodo GC, este nodo fuese CG, entonces si se podría proporcionar un camino Euleriano que secuenciase la siguiente cadena:
+
+<div align="center">
+  <img src="grafo_2_1.png" alt="Grafo Ej 2.1" width=700 />
+    <p><strong>Figura 2.</strong> Grafo corregido del ejercicio 2. </p> 
+</div>
   
-3. Explicar el proceso paso a paso, indicando cómo el grafo ayuda a ensamblar fragmentos y cómo se resuelven las superposiciones.
+4. Explicar el proceso paso a paso, indicando cómo el grafo ayuda a ensamblar fragmentos y cómo se resuelven las superposiciones.
