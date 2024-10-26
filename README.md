@@ -154,3 +154,14 @@ Trabajas en un proyecto de investigación sobre secuencias de ADN complejas. Tie
   - CGAA: CGA $\rightarrow$ GAA
   - GAAC: GAA $\rightarrow$ AAC
   - AACG: AAC $\rightarrow$ ACG
+
+<div align="center">
+  <img src="Grafo_4.png" alt="Grafo Ej 4" width=700 />
+    <p><strong>Figura 4.</strong> Grafo del ejercicio 4. </p> 
+</div>
+
+2. **Identificar el problema**: 
+- Intenta seguir un camino euleriano en el grafo.
+- Describe por qué no es posible ensamblar la secuencia original utilizando solo un grafo de De Bruijn.
+
+En el grafo descrito, sí es posible seguir un camino un camino euleriano que ensambla la secuencia original, la cual sería la siguiente: `AGTTGACGAACG`. 
