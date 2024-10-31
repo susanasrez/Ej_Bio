@@ -160,8 +160,20 @@ Trabajas en un proyecto de investigación sobre secuencias de ADN complejas. Tie
     <p><strong>Figura 4.</strong> Grafo del ejercicio 4. </p> 
 </div>
 
-2. **Identificar el problema**: 
-- Intenta seguir un camino euleriano en el grafo.
-- Describe por qué no es posible ensamblar la secuencia original utilizando solo un grafo de De Bruijn.
+2. **Ensamblar la secuencia original**: 
 
-En el grafo descrito, sí es posible seguir un camino un camino euleriano que ensambla la secuencia original, la cual sería la siguiente: `AGTTGACGAACG`. 
+En el grafo descrito, es posible seguir un camino un camino euleriano que ensambla la secuencia original, la cual sería la siguiente: `A-G-T-T-G-A-C-G-A-A-C-G`. 
+
+#### Preguntas adicionales:
+
+**1. ¿Por qué el grafo de De Bruijn no puede resolver este problema?**
+
+En este caso, el grafo de De Bruijn sí puede resolver este problema ya que se puede encontrar en él un camino euleriano.
+
+**2. ¿Qué sucede cuando existen múltiples caminos entre dos nodos?**
+
+En el hipotético caso de que existan múltiples caminos entre dos nodos, entonces ocurre **ambigüedad de ensamblaje**. La existencia de múltiples caminos entre nodos introduce ambigüedad en la reconstrucción de la secuencia original, ya que puede haber varias formas de recorrer el grafo y, por tanto, varias posibles secuencias resultantes. Esto dificulta identificar el camino correcto sin información adicional.
+
+**3. ¿Cómo podrías ajustar la representación del grafo o el enfoque para manejar estas ambigüedades y obtener una reconstrucción válida?**
+
+Para manejar las ambigüedades en la representación del grafo y lograr una reconstrucción válida, el alineamiento de secuencias es una herramienta efectiva cuando se dispone de una secuencia de referencia. Este enfoque permite comparar y alinear la secuencia objetivo con una referencia conocida, reduciendo la ambigüedad al proporcionar puntos de comparación fiables. En caso de no contar con una secuencia de referencia, una opción es aplicar otros métodos de ensamblaje como el ensamblaje de novo, que permite reconstruir la secuencia o estructura del grafo sin depender de referencias. Estos métodos emplean algoritmos que identifican patrones de solapamiento o conexiones lógicas entre fragmentos o nodos, deduciendo una estructura plausible a partir de los datos disponibles.
