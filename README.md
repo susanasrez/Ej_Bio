@@ -1,7 +1,4 @@
 ## Ensamblaje de secuencias de ADN mediante grafos de De Bruijn 
-
-Los ejercicios descritos a cotinuación se encuentran en el siguiente [enlace](
-
 ---
 
 <div align="justify">
