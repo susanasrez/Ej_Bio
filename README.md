@@ -1,5 +1,4 @@
 ## Ensamblaje de secuencias de ADN mediante grafos de De Bruijn 
----
 
 <div align="justify">
 
@@ -153,15 +152,15 @@
 
   1. **Construir el grafo de De Bruijn**. Divide cada fragmento en un prefijo de longitud 𝑘−1=3 y un sufijo de longitud 𝑘−1=3. Construye un grafo dirigido donde los nodos sean los prefijos y sufijos, y las aristas representen las lecturas que conectan estos prefijos y sufijos.
     
-    - AGTT: AGT → GTT
-    - GTTG: GTT → TTG
-    - TTGA: TTG → TGA
-    - TGAC: TGA → GAC
-    - GACG: GAC → ACG
-    - ACGA: ACG → CGA
-    - CGAA: CGA → GAA
-    - GAAC: GAA → AAC
-    - AACG: AAC → ACG
+  - AGTT: AGT → GTT
+  - GTTG: GTT → TTG
+  - TTGA: TTG → TGA
+  - TGAC: TGA → GAC
+  - GACG: GAC → ACG
+  - ACGA: ACG → CGA
+  - CGAA: CGA → GAA
+  - GAAC: GAA → AAC
+  - AACG: AAC → ACG
 
   <div align="center">
     <img src="Grafo_4.png" alt="Grafo Ej 4" width=700 />
